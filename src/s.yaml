@@ -1,0 +1,18 @@
+edition: 3.0.0
+name: hello-world-app
+
+resources:
+  hello_world:
+    props:
+      region: "test-3"
+      functionName: "wangru"
+      description: 'hello world by serverless devs'
+      requestType: "http"
+      runtimeType: "customize"
+      cloudBuildType: "Source"
+      arch: "x86_64"
+      memorySize: 128
+      timeout: 30
+      cpu: 0.5
+      diskSize: 512
+      concurrencyLimit: 1
